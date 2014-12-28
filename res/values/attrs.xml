@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="FreedomHistogramView">
+        <attr name="isTitle" format="boolean" />
+        <attr name="charWith" format="integer" />
+        <attr name="withX" format="integer" />
+        <attr name="numberY" format="integer" />
+        <attr name="withY" format="float" />
+    </declare-styleable>
+
+</resources>

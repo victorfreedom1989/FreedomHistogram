@@ -9,6 +9,46 @@ package com.freedom.histogram;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int charWith=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int isTitle=0x7f010000;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int numberY=0x7f010003;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int withX=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int withY=0x7f010004;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -25,7 +65,9 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f080002;
+        public static final int container=0x7f080000;
+        public static final int view=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -66,4 +108,98 @@ public final class R {
          */
         public static final int AppTheme=0x7f060001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a FreedomHistogramView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FreedomHistogramView_charWith com.freedom.histogram:charWith}</code></td><td></td></tr>
+           <tr><td><code>{@link #FreedomHistogramView_isTitle com.freedom.histogram:isTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #FreedomHistogramView_numberY com.freedom.histogram:numberY}</code></td><td></td></tr>
+           <tr><td><code>{@link #FreedomHistogramView_withX com.freedom.histogram:withX}</code></td><td></td></tr>
+           <tr><td><code>{@link #FreedomHistogramView_withY com.freedom.histogram:withY}</code></td><td></td></tr>
+           </table>
+           @see #FreedomHistogramView_charWith
+           @see #FreedomHistogramView_isTitle
+           @see #FreedomHistogramView_numberY
+           @see #FreedomHistogramView_withX
+           @see #FreedomHistogramView_withY
+         */
+        public static final int[] FreedomHistogramView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.freedom.histogram.R.attr#charWith}
+          attribute's value can be found in the {@link #FreedomHistogramView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.freedom.histogram:charWith
+        */
+        public static final int FreedomHistogramView_charWith = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.freedom.histogram.R.attr#isTitle}
+          attribute's value can be found in the {@link #FreedomHistogramView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.freedom.histogram:isTitle
+        */
+        public static final int FreedomHistogramView_isTitle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.freedom.histogram.R.attr#numberY}
+          attribute's value can be found in the {@link #FreedomHistogramView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.freedom.histogram:numberY
+        */
+        public static final int FreedomHistogramView_numberY = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.freedom.histogram.R.attr#withX}
+          attribute's value can be found in the {@link #FreedomHistogramView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.freedom.histogram:withX
+        */
+        public static final int FreedomHistogramView_withX = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.freedom.histogram.R.attr#withY}
+          attribute's value can be found in the {@link #FreedomHistogramView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.freedom.histogram:withY
+        */
+        public static final int FreedomHistogramView_withY = 4;
+    };
 }

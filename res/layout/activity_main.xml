@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:freedom="http://schemas.android.com/apk/res/com.freedom.histogram"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,9 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.freedom.histogram.MainActivity" >
 
-    <TextView
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <com.freedom.histogram.FreedomHistogramView
+        android:id="@+id/view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_below="@id/container"
+        freedom:charWith="10"
+        freedom:isTitle="true"
+        freedom:numberY="5"
+        freedom:withX="40"
+        freedom:withY="40" />
 
 </RelativeLayout>
